@@ -9,7 +9,7 @@ function ninjaBabySelector(){
   return $('#baby-ninja')
 }
 function divSelector(){
-  return $('div').even()
+  return $('div:even')
 }
 function firstListItem(){
   return $('ul li')
