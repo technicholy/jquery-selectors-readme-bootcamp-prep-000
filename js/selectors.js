@@ -12,5 +12,5 @@ function divSelector(){
   return $('div:even')
 }
 function firstListItem(){
-  return $('ul li')
+  return $('ul li:first')
 }
